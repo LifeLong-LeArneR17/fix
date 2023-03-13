@@ -1,4 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
+import { Header } from './Header/Header';
+import { Expenses } from './Expenses/Expenses';
+import { Income } from './Income/Income';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { refreshUser } from 'redux/user/userOperations';
